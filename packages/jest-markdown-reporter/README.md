@@ -1,7 +1,7 @@
-# jest-md-reporter
+# jest-markdown-reporter
 
-[![npm version](https://img.shields.io/npm/v/jest-md-reporter.svg)](https://www.npmjs.com/package/jest-md-reporter)
-[![npm downloads](https://img.shields.io/npm/dm/jest-md-reporter.svg)](https://www.npmjs.com/package/jest-md-reporter)
+[![npm version](https://img.shields.io/npm/v/jest-markdown-reporter.svg)](https://www.npmjs.com/package/jest-markdown-reporter)
+[![npm downloads](https://img.shields.io/npm/dm/jest-markdown-reporter.svg)](https://www.npmjs.com/package/jest-markdown-reporter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 
 **Jest Markdown Reporter** is a custom Jest reporter that summarizes failing tests into a neatly formatted Markdown block. This can be especially useful for posting test summaries in GitHub, GitLab, or other review platforms as comments.
@@ -18,7 +18,7 @@
 ## Installation
 
 ```bash
-npm install --save-dev jest-md-reporter
+npm install --save-dev jest-markdown-reporter
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ npm install --save-dev jest-md-reporter
 
    ```javascript
    module.exports = {
-     reporters: ['default', ['jest-md-reporter', {}]],
+     reporters: ['default', ['jest-markdown-reporter', {}]],
    };
    ```
 

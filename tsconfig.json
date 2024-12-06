@@ -4,7 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./packages/jest-md-reporter"
+      "path": "./packages/jest-markdown-reporter"
     }
   ]
 }

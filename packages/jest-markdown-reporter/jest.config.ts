@@ -1,5 +1,5 @@
 export default {
-  displayName: 'jest-md-reporter',
+  displayName: 'jest-markdown-reporter',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {

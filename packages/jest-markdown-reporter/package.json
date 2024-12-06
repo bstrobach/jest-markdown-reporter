@@ -1,6 +1,6 @@
 {
-  "name": "jest-md-reporter",
-  "version": "0.0.2",
+  "name": "jest-markdown-reporter",
+  "version": "0.0.3",
   "description": "Extract list of failing tests as html detail/summary view",
   "author": {
     "name": "@bstrobach",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bstrobach/jest-md-reporter.git"
+    "url": "git+https://github.com/bstrobach/jest-markdown-reporter.git"
   },
   "keywords": [
     "jest",
@@ -28,7 +28,7 @@
     "!**/*.tsbuildinfo"
   ],
   "nx": {
-    "sourceRoot": "packages/jest-md-reporter/src",
+    "sourceRoot": "packages/jest-markdown-reporter/src",
     "projectType": "library"
   }
 }
